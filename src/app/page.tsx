@@ -10,10 +10,12 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import logo from "@/../public/images/logo/logo.svg"; // Corrected image import
 
 export const metadata: Metadata = {
   title: "JASUKE NYOOSSS",
   description: "jagung susu kejju mantap",
+  icons: logo, // Here you can use the logo as an icon
   // other metadata
 };
 
