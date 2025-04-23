@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import { useState } from "react";
 import Link from "next/link";
+import Script from "next/script";
 
 const Hero = () => {
   const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
 
-  // Handle mouse movement to update cursor position
   const handleMouseMove = (e) => {
     setCursorPos({
       x: e.clientX,
@@ -19,6 +19,19 @@ const Hero = () => {
       className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       onMouseMove={handleMouseMove}
     >
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-34C7JLGD3C"
+        strategy="afterInteractive"
+      />
+      <Script id="ga-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-34C7JLGD3C');
+        `}
+      </Script>
+
       <div className="container">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">
@@ -49,11 +62,12 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
       <div
         className="absolute w-20 h-20 bg-yellow rounded-full pointer-events-none transform transition-all duration-150 ease-out -z-10"
         style={{
-          top: cursorPos.y - 20 + "px", // offset the circle by half its size
-          left: cursorPos.x - 20 + "px", // offset the circle by half its size
+          top: `${cursorPos.y - 20}px`,
+          left: `${cursorPos.x - 20}px`,
         }}
       ></div>
 
