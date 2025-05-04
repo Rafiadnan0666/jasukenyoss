@@ -7,8 +7,14 @@ const Contact = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div
+<<<<<<< HEAD
               className="mb-12 rounded-sm bg-white px-8 py-11 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
               data-wow-delay=".15s"
+=======
+              className="mb-12 rounded-xs bg-white px-8 py-11 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
+              data-wow-delay=".15s
+              "
+>>>>>>> 5b53d8d4ec7d06b7b5ed7e004ce5df321c880a17
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
                 Butuh Bantuan? Kirimkan Pesan
@@ -28,8 +34,13 @@ const Contact = () => {
                       </label>
                       <input
                         type="text"
+<<<<<<< HEAD
                         placeholder="Masukkan nama Anda"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+=======
+                        placeholder="Enter your name"
+                        className="border-stroke w-full rounded-xs border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-hidden focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+>>>>>>> 5b53d8d4ec7d06b7b5ed7e004ce5df321c880a17
                       />
                     </div>
                   </div>
@@ -43,8 +54,13 @@ const Contact = () => {
                       </label>
                       <input
                         type="email"
+<<<<<<< HEAD
                         placeholder="Masukkan email Anda"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+=======
+                        placeholder="Enter your email"
+                        className="border-stroke w-full rounded-xs border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-hidden focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+>>>>>>> 5b53d8d4ec7d06b7b5ed7e004ce5df321c880a17
                       />
                     </div>
                   </div>
@@ -59,14 +75,24 @@ const Contact = () => {
                       <textarea
                         name="message"
                         rows={5}
+<<<<<<< HEAD
                         placeholder="Masukkan pesan Anda"
                         className="border-stroke w-full resize-none rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+=======
+                        placeholder="Enter your Message"
+                        className="border-stroke w-full resize-none rounded-xs border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-hidden focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+>>>>>>> 5b53d8d4ec7d06b7b5ed7e004ce5df321c880a17
                       ></textarea>
                     </div>
                   </div>
                   <div className="w-full px-4">
+<<<<<<< HEAD
                     <button className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
                       Kirim Pesan
+=======
+                    <button className="rounded-xs bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
+                      Submit Ticket
+>>>>>>> 5b53d8d4ec7d06b7b5ed7e004ce5df321c880a17
                     </button>
                   </div>
                 </div>

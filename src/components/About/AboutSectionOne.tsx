@@ -9,8 +9,8 @@ const checkIcon = (
 
 const AboutSectionOne = () => {
   const List = ({ text }) => (
-    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
+    <p className="text-body-color mb-5 flex items-center text-lg font-medium">
+      <span className="bg-primary/10 text-primary mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md">
         {checkIcon}
       </span>
       {text}
@@ -47,15 +47,15 @@ const AboutSectionOne = () => {
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
+              <div className="relative mx-auto aspect-25/24 max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/about/jasuke-nyoss-image.svg"
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.RtFYonADx8TF2PL6R1hoEwHaE8%3Fpid%3DApi&f=1&ipt=fa87f663f82fe630b7658f1d6d1d09e88e8e5b4de1b3e4e8a6ca20e60c00a6d8&ipo=images"
                   alt="Gambar tentang Jasuke Nyoss"
                   fill
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/jasuke-nyoss-image-dark.svg"
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.cf40DwWNVH2p3N8aFCRYtAHaFP%3Fpid%3DApi&f=1&ipt=1e154a9ec6f40c6283217a7eb7da1dab2a7522126278090b35d2ec4e89fa4aca&ipo=images"
                   alt="Gambar tentang Jasuke Nyoss dalam mode gelap"
                   fill
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"

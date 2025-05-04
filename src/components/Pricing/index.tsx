@@ -28,7 +28,7 @@ const Pricing = () => {
             <OfferList text="Kemasan Praktis" status="active" />
             <OfferList text="Support Pelanggan" status="active" />
             <Image
-              src="/images/dummy-picture.jpg"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.mV3pE6ySeUgEXwddrB-wOAHaE7%3Fpid%3DApi&f=1&ipt=3824b47dd339ffa9f7cc2f134caf436dda8ac81d99ce41853cb228aaa9b36cd1&ipo=images"
               alt="Paket Regular"
               width={500}
               height={300}
@@ -48,7 +48,7 @@ const Pricing = () => {
             <OfferList text="Kemasan Menarik" status="active" />
             <OfferList text="Support Pelanggan Prioritas" status="active" />
             <Image
-              src="/images/dummy-picture.jpg"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.ZrBRdq0qOm9bFrELscfNTAHaE8%3Fpid%3DApi&f=1&ipt=8135c7163fff715e31998f9ef564abca968035bfc315bf3c6228233ac528ee1c&ipo=images"
               alt="Paket Large"
               width={500}
               height={300}
