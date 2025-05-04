@@ -12,13 +12,8 @@ const PricingBox = (props: {
       <div className="shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark relative z-10 rounded-xs bg-white px-8 py-10">
         <div className="flex items-center justify-between">
           <h3 className="price mb-2 text-[32px] font-bold text-black dark:text-white">
-<<<<<<< HEAD
-            Rp.<span className="amount">{price}</span>
-            <span className="time text-lg font-medium text-body-color">
-=======
             $<span className="amount">{price}</span>
             <span className="time text-body-color text-lg font-medium">
->>>>>>> 5b53d8d4ec7d06b7b5ed7e004ce5df321c880a17
               /{duration}
             </span>
           </h3>
